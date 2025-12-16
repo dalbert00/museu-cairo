@@ -26,11 +26,10 @@
 </head>
 
 <body>
-  <script>
-    const imagens = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
+    <script>
+  const imagens = Array.from({ length: 51 }, (_, i) => i + 1);
     imagens.forEach(i => {
-      document.write(`<img src="./img/cairo${i}.jpg">`);
+      document.write(`<img src="./img/image (${i}).jpg">`);
     });
   </script>
 </body>
